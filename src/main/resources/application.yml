@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/leaveManagementSys?createDatabseIfNotExist=true
+    username: root
+    password: 1234
+
+  jpa:
+    hibinate:
+      ddl-auto: update
